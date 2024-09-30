@@ -6,11 +6,11 @@ setup(
     description='Uma biblioteca para calcular dias úteis com base em dias não úteis.',
     author='Lucas',
     author_email='lanceluks@gmail.com',
-    url='https://github.com/lanceluks/dulanceluks',  # URL do repositório (opcional)
+    url='https://github.com/lanceluks/dulanceluks',
     packages=find_packages(),
-    include_package_data=True,  # Isso garante que o arquivo DNU.txt seja incluído
+    include_package_data=True,  
     package_data={
-        'dulanceluks': ['DNU.txt'],  # Incluir o arquivo DNU.txt
+        'dulanceluks': ['DNU.txt'],  
     },
     install_requires=[
         'pandas',  # Dependências
